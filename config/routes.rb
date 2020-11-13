@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   root to: 'products#index'
   
-  resources :about do
+  resource :about do
     root to: "about#show"
   end
 
