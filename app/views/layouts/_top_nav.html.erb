@@ -49,18 +49,18 @@
         </li>
         <% if (current_user == nil) %>
           <li>
-            <%= link_to 'login' do %>
+            <%= link_to '/login' do %>
               Login
             <% end %>
           </li>
           <li>
-            <%= link_to 'signup' do %>
+            <%= link_to '/signup' do %>
               Sign up
             <% end %>
           </li>
         <% else %>
           <li>
-            <%= link_to 'logout' do %>
+            <%= link_to logout_path do %>
               Logout
             <% end %>
           </li>
