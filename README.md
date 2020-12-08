@@ -2,14 +2,22 @@
 A Ruby on Rails project as part of [Lighthouse Labs](https://www.lighthouselabs.ca/) Web Development Bootcamp. A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example. While this project came with some starter functionality, I implemented and enhanced features, including:
 
 * Product details sold-out badge
+
 ![sold out product](./docs/sold-badge.png)
+
 * Empty cart state
+
 ![empty-cart](./docs/empty-cart.gif)
 * Order confirmation
+
 ![order confirmation](./docs/order.png)
+
 * User authorization with bcrypt-ruby
+
 ![login, sign up, logout](./docs/login.gif)
+
 * Add product categories (as Admin)
+
 ![admin login, add category](./docs/admin-cat.gif)
 
 ## Setup
